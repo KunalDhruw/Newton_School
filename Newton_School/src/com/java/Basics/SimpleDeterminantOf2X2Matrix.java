@@ -10,8 +10,8 @@ public class SimpleDeterminantOf2X2Matrix {
         Scanner sc= new Scanner(System.in);
 
 
-        for(i = 0; i < 2; i++) {
-            for(j = 0; j < 2; j++) {
+        for(i = 0; i < 2; i++) {   // for number of rows.      4    5
+            for(j = 0; j < 2; j++) { // for number of columns. 2    3
                 arr[i][j] = sc.nextInt();
             }
         }

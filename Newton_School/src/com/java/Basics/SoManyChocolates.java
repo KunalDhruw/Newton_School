@@ -1,86 +1,49 @@
+//        So many chocolates? (Contest)
+//        Easy
+//
+//        hint
+//        Hint
+//
+//        Time Limit: 2 sec
+//        Memory Limit: 128000 kB
+//        Problem Statement
+//        It's Solo's 1st birthday and everyone is gifting her chocolates. There are N guests invited, the ith guest gives Solo A[i] chocolates.
+//
+//        Find the total number of chocolates that Solo receives.
+//        Input
+//        The first line of the input contains an integer N, the number of guests.
+//        The second line of the input contains N integers A[1], A[2],. , A[N]
+//
+//        Constraints
+//        1 <= N <= 100
+//        1 <= A[i] <= 100
+//        Output
+//        Output a single integer, the total number of chocolates that Solo receives.
+//        Example
+//        Sample Input
+//        5
+//        1 2 4 3 2
+//
+//        Sample Output
+//        12
+//
+//        Explanation: Solo receives a total of 1+2+4+3+2 = 12 chocolates.
+//
+//        Sample Input
+//        1
+//        2
+//
+//        Sample Output
+//        2
+
 package com.java.Basics;
 import java.util.Scanner;
 
 public class SoManyChocolates {
-//    static int kunal(int a , int b ){
-//        if (a<=10 && b>=10) {
-//            return 1;
-//
-//            else if (a % 2 == 0 || b % 2 == 0)
-//                return 2;
-//
-//            if (a != b)
-//                return 3;
-//        }
-//
-//        return a;
-//    }
+
         public static void main (String[] args) {
-//            Scanner sc = new Scanner(System.in);
-//            int n = sc.nextInt();
-//            int [] arr = new int[n];
-//            for (int i = 0; i<arr.length; i++){
-//                arr[i] = sc.nextInt();
-//            }
-//            int sum = 0;
-//            for (int i = 0; i<arr.length; i++){
-//                sum = sum + arr[i];
-//
-//            }
-//            System.out.println(sum);
-
-//            Scanner sc = new Scanner(System.in);
-//            int N = sc.nextInt();
-//            int temp = 0;
-//
-//            for(int i = 0; i<N; i++){
-//                if(i%2==0){
-//                    temp = 1 ;
-//
-//                }
-//            }
-//            if (temp==1){
-//                System.out.println(N + " is even number");
-//            }
-//            else{
-//                System.out.println(N + " is odd number");
-//            }
             Scanner sc = new Scanner(System.in);
-//            int a = sc.nextInt();
-//            int b = sc.nextInt();
-//            if (a<=10 && b>=10){
-//                System.out.print("true ");
-//            }else{
-//                System.out.print("false ");
-//            }
-//            if (a%2==0 || b%2==0){
-//                System.out.print("true ");
-//            }else{
-//                System.out.print("false ");
-//            }
-//            if (a!=b){
-//                System.out.print("true ");
-//            }else{
-//                System.out.print("false ");
-//            }
-            // P = A
-            // Q = B
-            // R = C
-//             S = D
-            // int max = P + Q + R + S
-
-//            int arr[] = new int[4];
-//            int max = 0;
-//            for (int i = 0; i < arr.length; i++) {
-//                arr[i] = sc.nextInt();
-//            }
-//            for (int i = 0; i < arr.length; i++) {
-//                if (arr[i] > max) {
-//                    max = arr[i];
-//                }
-     /*       float a = sc.nextFloat();
-            float b = sc.nextFloat();
-            float c = sc.nextFloat();*/
+//
             float a = sc.nextInt();
             float b = sc.nextInt();
             float c = sc.nextInt();

@@ -1,3 +1,32 @@
+//        Reverse Pairs
+//        Medium
+//
+//        Time Limit: 2 sec
+//        Memory Limit: 128000 kB
+//        Problem Statement
+//        Print the number of reverse pairs in the array given an integer array nums.
+//
+//        A reverse pair is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > 2 * nums[j].
+//        Input
+//        The first line of input will be n, which represents the array's length, followed by the n array items in the second line.
+//
+//        Constraints:
+//        0<= n <=10000
+//        Output
+//        Print the number of reverse pairs in the array.
+//        Example
+//        Sample Input 1:
+//        4
+//        1 3 4 5
+//        Output 1:
+//        0
+//
+//        Sample Input 2:
+//        6
+//        6 5 4 3 2 1
+//        Output 2:
+//        6
+
 package com.java.Basics;
 
 import java.util.*;
